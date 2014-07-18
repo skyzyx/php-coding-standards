@@ -1,4 +1,4 @@
-# Personal Coding Standards
+# Personal PHP Coding Standards
 
 * [PSR.md](PSR.md)
 * [EDITOR-SETTINGS.md](EDITOR-SETTINGS.md)

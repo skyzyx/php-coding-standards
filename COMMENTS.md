@@ -25,3 +25,19 @@
       into multiple lines for improved readability.
   */
   ```
+
+* There should always be one line of whitespace above the start of a comment block.
+
+  ```php
+  // This is my code.
+  echo 'This is my code.';
+
+  // This is more code.
+  echo 'This is more code.';
+
+  if (condition) {
+
+      // comment
+      echo 'code';
+  }
+  ```

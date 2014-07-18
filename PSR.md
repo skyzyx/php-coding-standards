@@ -5,7 +5,7 @@
 * [PSR-1](http://www.php-fig.org/psr/psr-1/)
 
 * [PSR-2](http://www.php-fig.org/psr/psr-2/), with the following exceptions:
-    * Opening braces (i.e., `{`), and closing braces (i.e., `}`), are always on their own line. (Studies have shown this enhances readability.)
+    * Braces follow the [Uncompressed Style](DEFINE-BRACES.md).
     * Line lengths have a HARD LIMIT of 120 characters. (Better than 80, but still not ridiculous.)
     * Extra line breaks are encouraged for readability.
 

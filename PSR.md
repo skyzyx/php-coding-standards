@@ -59,10 +59,10 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
   `use` declarations.
 
   ```php
-  namespace WePay\Api\Checkout;
+  namespace MyCode\Api\Cars;
 
   use \Exception;
-  use WePay\MoneyEngine\Currency;
+  use MyCode\Engine\Chevrolet;
 
   class Create {}
   ```

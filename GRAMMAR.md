@@ -73,7 +73,11 @@
 
 * Single quotes most of the time
 
-* For string interpolation, always use `sprintf()`.
+* For simple string interpolation with double-quoted strings, use the `${variable}` format. This is the same format as Ruby uses (i.e., `#{variable}`).
+
+   * Do NOT use `{$variable}` or `$variable`.
+
+* For complex string interpolation, always use `sprintf()`.
 
 * Use HEREDOC syntax for multi-line strings.
 

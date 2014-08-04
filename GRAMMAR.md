@@ -8,10 +8,9 @@
 
 * PHP-only files should have an opening `<?php` tag, but should not have a closing tag! Adding a closing PHP tag can occasionally cause strange issues when importing. As such, leave out the closing `?>` tag.
 
-* Do not use short open tags (`<?`)
-    * This is different from template echo (`<?=`), which is OK.
+* Do not use short open tags (`<?`) for files which are entirely PHP.
 
-* All control structures use braces, even if they’re optional.
+* All control structures use braces, even if they’re optional, for files which are entirely PHP.
 
   ```php
   // Bad
@@ -27,6 +26,38 @@
       $abc = 'abc';
   }
   ```
+
+* View/Template-layer code (code which intermingles PHP with HTML/non-PHP) allows the following exceptions:
+
+   * Template echoes (`<?=`) are OK.
+
+   * Short-open tags (`<?`) may be used to wrap control structures.
+
+     ```php
+     <? if (condition): ?>
+       <tag>View-layer code.</tag>
+     <? endif ?>
+     ```
+
+   * `if`, `for`, `foreach`, `while`, and similar kinds of blocks use the `:` character to begin their statements.
+
+     ```php
+     <? if (condition): ?>
+     ```
+
+   * `endif`, `endfor`, `endforeach`, `endwhile`, and similar kinds of blocks do NOT use a trailing `;` character.
+
+     ```php
+     <? endif ?>
+     ```
+
+   * All `<? ... ?>` blocks have a single space just inside the open/close tokens.
+
+     ```php
+     <? if (condition): ?>
+       <?= $variable ?>
+     <? endif ?>
+     ```
 
 ## Arrays
 

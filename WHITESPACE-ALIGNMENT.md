@@ -1,6 +1,6 @@
 # Whitespace and Alignment
 
-* Follow _PSR Recommendations_ (above) by default.
+* Follow _PSR Recommendations_ by default.
 
 * `switch` control statement:
     * In addition to the standard whitespace for `switch` statements, the contents of each `case` or `default` block should be indented for readability. This includes the closing `break`;.

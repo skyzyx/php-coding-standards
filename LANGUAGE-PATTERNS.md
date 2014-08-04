@@ -8,13 +8,6 @@
   #! /usr/bin/env php
   ```
 
-## `use`
-
-* All `use` statements are sorted alphabetically.
-
-* As per the PHP Manual, `use` statements for namespaced classes should not be prefixed with a `\` character.
-    * This excludes _global_ classes.
-
 ## Language constructs
 
 * `echo`, `require`, `include`, `print` should not use parentheses.

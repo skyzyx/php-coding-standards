@@ -30,6 +30,7 @@ My primary influences are:
 * [AWS SDK for PHP](https://github.com/aws/aws-sdk-php)
 * [PSR-1](http://www.php-fig.org/psr/psr-1/)
 * [PSR-2](http://www.php-fig.org/psr/psr-2/)
+* [PEAR](http://pear.php.net/manual/en/standards.php)
 * [Evolt](http://evolt.org/node/60247/) standards
 * ...and other things I've picked up since I started writing PHP in 2002.
 

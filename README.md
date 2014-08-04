@@ -1,4 +1,4 @@
-# Personal PHP Coding Standards
+# Parman PHP Coding Standards
 
 This guide is an attempt to precisely and thoroughly document all of the idiosyncrasies around how I write PHP code, focusing primarily on style, and a little on structure.
 
@@ -52,7 +52,7 @@ My intention is to release all rights to this documentation and make it availabl
      href="https://github.com/skyzyx/php-coding-standards">
     <span property="dct:title">Ryan Parman</span></a>
   has waived all copyright and related or neighboring rights to
-  <span property="dct:title">Personal PHP Coding Standards</span>.
+  "<span property="dct:title">Parman PHP Coding Standards</span>".
 This work is published from:
 <span property="vcard:Country" datatype="dct:ISO3166"
       content="US" about="https://github.com/skyzyx/php-coding-standards">

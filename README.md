@@ -15,6 +15,7 @@ There are a couple of places where I deviate from PSR-2, but those exceptions ar
 * [WHITESPACE-ALIGNMENT.md](WHITESPACE-ALIGNMENT.md)
 * [CLASSES-METHODS.md](CLASSES-METHODS.md)
 * [LANGUAGE-PATTERNS.md](LANGUAGE-PATTERNS.md)
+* [CONTROVERSIAL-BITS.md](CONTROVERSIAL-BITS.md)
 
 ## Influences
 My primary influences are:

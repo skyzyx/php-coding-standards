@@ -16,18 +16,22 @@
   class Baz {}
   ```
 
+* In the `use` statement, globally-accessible classes MUST be prefixed with the `\` character, as per PHP's namespace resolution rules. However, all namespaced _userland_ classes should NOT be prefixed with the `\` character, as per the [PHP Manual](http://php.net/manual/en/language.namespaces.importing.php) (emphasis **mine**).
+
+  > Note that for namespaced names (fully qualified namespace names containing namespace separator, such as Foo\Bar as opposed to global names that do not, such as FooBar), **the leading backslash is unnecessary and not recommended**, as import names must be fully qualified, and are not processed relative to the current namespace.
+
 ## Using Traits
 
-Traits should be referenced with `use` first-thing inside the class declaration.
+* Traits should be referenced with `use` first-thing inside the class declaration.
 
-```php
-class Baz
-{
-    use BazzTrait;
+  ```php
+  class Baz
+  {
+      use BazzTrait;
 
-    // Class code...
-}
-```
+      // Class code...
+  }
+  ```
 
 ## Type Hinting
 
@@ -53,7 +57,7 @@ class Baz
   $feed = new MyClass;
   ```
 
-* Since all external classes (and, optionally, namespaces) being used in the current class have been aliased with `use` (see above), you always reference classes with short form naming.
+* Since all external classes (and, optionally, namespaces) being used in the current class have been aliased with `use` (see above), you always reference classes with short-form naming.
 
   ```php
   use Foo\Bar\Baz;

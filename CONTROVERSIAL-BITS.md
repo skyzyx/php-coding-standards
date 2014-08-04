@@ -14,17 +14,17 @@ Also, I like being able to view indentations as wide or as narrow as I prefer. S
 
 Therefore, I very much favor tabs.
 
-## Joining the Dark Side
+### Joining the Dark Side
 If I join a project that has already standardized on spaces, I have plugins for my IDE/editor which can convert to tabs, let me code in peace, then convert back to spaces. I've gotten really good at this, and code reviews can catch when I forget to change back.
 
 Having said that, I'm a bit jealous of the 4-space folks because their code looks better when published to GitHub. Unfortunately, GitHub still displays tabs as taking 8 spaces. (Who actually displays tabbed code at 8 characters?!)
 
-## Alignment
-Alignment (as opposed to indentation) should of-course use spaces.
+### Alignment
+Alignment (as opposed to indentation) should of-course use spaces because tabs are variable width and spaces are static width. If you want to align pieces of a specific line (e.g., `=>` in associative arrays), you use a static width unit.
 
-   http://www.iovene.com/posts/2007/05/tabs-vs-spaces-the-end-of-the-debate/
+[TABs vs Spaces: The end of the debate.](http://www.iovene.com/posts/2007/05/tabs-vs-spaces-the-end-of-the-debate/) made the most argument that convinced me, and I've been following the pattern ever since.
 
 ----
 
-# https://www.bible.com/search/bible?q=Luke+13%3A28
-# Brace style was chosen by simple majority vote, as opposed to any kind of genuine usability research. See the "A.3. Survey Results" section of [PSR-2](http://www.php-fig.org/psr/psr-2/).
+1. https://www.bible.com/search/bible?q=Luke+13%3A28
+2. Brace style was chosen by simple majority vote, as opposed to any kind of genuine usability research. See the "A.3. Survey Results" section of [PSR-2](http://www.php-fig.org/psr/psr-2/).

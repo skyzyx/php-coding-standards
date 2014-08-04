@@ -19,7 +19,7 @@ If I join a project that has already standardized on spaces, I have plugins for 
 
 Having said that, I'm a bit jealous of the 4-space folks because their code looks better when published to GitHub. Unfortunately, GitHub still displays tabs as taking 8 spaces. (Who actually displays tabbed code at 8 characters?!)
 
-### Alignment
+## Alignment
 Alignment (as opposed to indentation) should of-course use spaces because tabs are variable width and spaces are static width. If you want to align pieces of a specific line (e.g., `=>` in associative arrays), you use a static width unit.
 
 [TABs vs Spaces: The end of the debate.](http://www.iovene.com/posts/2007/05/tabs-vs-spaces-the-end-of-the-debate/) made the most argument that convinced me, and I've been following the pattern ever since.

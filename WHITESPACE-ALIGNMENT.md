@@ -3,7 +3,7 @@
 * Follow _PSR Recommendations_ by default.
 
 * `switch` control statement:
-    * In addition to the standard whitespace for `switch` statements, the contents of each `case` or `default` block should be indented for readability. This includes the closing `break`;.
+    * In addition to the standard whitespace for `switch` statements, the contents of each `case` or `default` block should be indented for readability. This includes the closing `break;`.
     * Also, there should always be a `default` block.
 
 * Blocks of variable setting should have all `=` characters vertically-aligned.

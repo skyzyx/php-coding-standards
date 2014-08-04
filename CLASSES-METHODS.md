@@ -4,15 +4,17 @@
 
 * For any external classes being used in the current class, you should `use` them between the namespace declaration and the class declaration.
 
-```php
-namespace Foo\Bar;
+* All `use` statements should be sorted alphanumerically.
 
-use \Exception;
-use \SimpleXMLElement;
-use Fuzz\Buzz\BazzTrait;
+  ```php
+  namespace Foo\Bar;
 
-class Baz {}
-```
+  use \Exception;
+  use \SimpleXMLElement;
+  use Fuzz\Buzz\BazzTrait;
+
+  class Baz {}
+  ```
 
 ## Using Traits
 
@@ -49,4 +51,16 @@ class Baz
 
   // Bad
   $feed = new MyClass;
+  ```
+
+* Since all external classes (and, optionally, namespaces) being used in the current class have been aliased with `use` (see above), you always reference classes with short form naming.
+
+  ```php
+  use Foo\Bar\Baz;
+  use Foo\Middleware as MW;
+  
+  class Example
+  {
+      $baz = new Baz(new MW\MyMiddleware());
+  }
   ```

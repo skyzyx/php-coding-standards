@@ -1,12 +1,8 @@
 # Controversial Bits
 These are the topics where I've seen the most "weeping and gnashing of teeth" [1]. This is the side of the line where I find myself falling most often.
 
-   [1] https://www.bible.com/search/bible?q=Luke+13%3A28
-
 ## Braces
 My braces follow the [Uncompressed Style](DEFINE-BRACES.md) because, quite simply, it's easier to read than the [Compressed Style](DEFINE-BRACES.md) recommended by PSR-2. [2]
-
-   [2] A.3. Survey Results
 
 ## Indenting
 ### Preference
@@ -27,3 +23,8 @@ Having said that, I'm a bit jealous of the 4-space folks because their code look
 Alignment (as opposed to indentation) should of-course use spaces.
 
    http://www.iovene.com/posts/2007/05/tabs-vs-spaces-the-end-of-the-debate/
+
+----
+
+# https://www.bible.com/search/bible?q=Luke+13%3A28
+# Brace style was chosen by simple majority vote, as opposed to any kind of genuine usability research. See the "A.3. Survey Results" section of [PSR-2](http://www.php-fig.org/psr/psr-2/).

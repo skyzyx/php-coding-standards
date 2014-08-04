@@ -27,37 +27,39 @@
   }
   ```
 
-* View/Template-layer code (code which intermingles PHP with HTML/non-PHP) allows the following exceptions:
+## View/Template Intermingling
 
-   * Template echoes (`<?=`) are OK.
+View/Template-layer code (code which intermingles PHP with HTML/non-PHP) allows the following exceptions:
 
-   * Short-open tags (`<?`) may be used to wrap control structures.
+* Template echoes (`<?=`) are OK.
 
-     ```php
-     <? if (condition): ?>
-       <tag>View-layer code.</tag>
-     <? endif ?>
-     ```
+* Short-open tags (`<?`) may be used to wrap control structures.
 
-   * `if`, `for`, `foreach`, `while`, and similar kinds of blocks use the `:` character to begin their statements.
+  ```php
+  <? if (condition): ?>
+    <tag>View-layer code.</tag>
+  <? endif ?>
+  ```
 
-     ```php
-     <? if (condition): ?>
-     ```
+* `if`, `for`, `foreach`, `while`, and similar kinds of blocks use the `:` character to begin their statements.
 
-   * `endif`, `endfor`, `endforeach`, `endwhile`, and similar kinds of blocks do NOT use a trailing `;` character.
+  ```php
+  <? if (condition): ?>
+  ```
 
-     ```php
-     <? endif ?>
-     ```
+* `endif`, `endfor`, `endforeach`, `endwhile`, and similar kinds of blocks do NOT use a trailing `;` character.
 
-   * All `<? ... ?>` blocks have a single space just inside the open/close tokens.
+  ```php
+  <? endif ?>
+  ```
 
-     ```php
-     <? if (condition): ?>
-       <?= $variable ?>
-     <? endif ?>
-     ```
+* All `<? ... ?>` blocks have a single space just inside the open/close tokens.
+
+  ```php
+  <? if (condition): ?>
+    <?= $variable ?>
+  <? endif ?>
+  ```
 
 ## Arrays
 

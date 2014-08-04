@@ -1,8 +1,35 @@
 # Classes and Methods
 
+## Using Namespaced Classes
+
+* For any external classes being used in the current class, you should `use` them between the namespace declaration and the class declaration.
+
+```php
+namespace Foo\Bar;
+
+use \Exception;
+use \SimpleXMLElement;
+use Fuzz\Buzz\BazzTrait;
+
+class Baz {}
+```
+
+## Using Traits
+
+Traits should be referenced with `use` first-thing inside the class declaration.
+
+```php
+class Baz
+{
+    use BazzTrait;
+
+    // Class code...
+}
+```
+
 ## Type Hinting
 
-* Type-hint whenever possible
+* Type-hint method parameters whenever possible
 
 * If you're thinking of supporting `mixed`, ask yourself why. Challenge yourself and your presumptions to determine if you _really_ need to accept a `mixed`.
 

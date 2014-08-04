@@ -10,6 +10,8 @@
 
 * It can be difficult to remember the order of parameters once the list becomes longer than 3 or 4. If some parameters are required and some are optional (or if some parameters can be made optional), consider keeping the required parameters required, and passing all optional parameters as an associative array at the end.
 
+* Alternatively, and probably better, is to break a method down into smaller methods. It may be trying to do too much.
+
 ## Class calls
 
 * When instantiating a class, always use parentheses -- even when they're optional.

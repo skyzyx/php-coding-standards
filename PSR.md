@@ -18,14 +18,6 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 * PHP-only files MUST use only the `<?php` tag.
 
-* Template files containing HTML are allowed to use `<?` around control structures, and `<?=` for direct output. For example:
-
-  ```html
-  <? if (condition): ?>
-      <tag>HTML block with <?= $variable ?>.</tag>
-  <? endif ?>
-  ```
-
 * Files MUST use only UTF-8 without BOM for PHP code.
 
 * Files SHOULD either declare symbols (classes, functions, constants, etc.) or cause side-effects (e.g. generate output, change `.ini` settings, etc.) but SHOULD NOT do both.

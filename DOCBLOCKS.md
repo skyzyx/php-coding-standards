@@ -10,7 +10,7 @@
 
 4. Native types should use the full name (e.g., `integer`, `string`, `boolean`).
 
-```
+```php
 /**
  * [getSomeKindOfData() description]
  * 
@@ -23,4 +23,25 @@
 public static function getSomeKindOfData($string, SimpleXMLElement $xml) {
     // ...
 }
+```
+
+## Properties
+
+You can choose to annotate the properties with only the data type.
+
+```php
+/** @var integer */
+protected $count = 0;
+
+/** @var array<string> */
+private $array_of_strings = [];
+```
+
+## `return`
+
+Type-hinting all `return` statements can enable better auto-complete functionality in non-IDE editors (e.g., Textmate, Sublime Text, Komodo). Type hinting here is the same as for properties, except that the type must be fully-qualified.
+
+```php
+/** @var \Symfony\Components\EventDispatcher\EventDispatcher */
+return $dispatcher;
 ```

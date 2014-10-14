@@ -51,18 +51,7 @@
 
 ## Assignments in Conditionals
 
-* It can be very confusing for developers who think you have a typo (i.e. they assume you meant `==`, when you intentionally meant `=`).
-
-* Because of this, doing variable assignments as part of conditionals is discouraged. Instead, try this approach:
-
-  ```php
-  $time = strtotime('tomorrow, 9am')
-
-  if ($time > time())
-  {
-      // code that uses $time...
-  }
-  ```
+This can be leveraged in some very useful ways. If you don't know how this works, you should read-up on this pattern and understand it's not always a typo.
 
 ## Error Suppression
 

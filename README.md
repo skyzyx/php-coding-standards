@@ -16,6 +16,7 @@ If you want to fork this and make edits for yourself or your team, please go rig
 * [EDITOR-SETTINGS.md](EDITOR-SETTINGS.md)
 * [GRAMMAR.md](GRAMMAR.md)
 * [COMMENTS.md](COMMENTS.md)
+* [DOCBLOCKS.md](DOCBLOCKS.md)
 * [SPELLING.md](SPELLING.md)
 * [NAMING.md](NAMING.md)
 * [WHITESPACE-ALIGNMENT.md](WHITESPACE-ALIGNMENT.md)

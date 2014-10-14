@@ -55,9 +55,7 @@ This can be leveraged in some very useful ways. If you don't know how this works
 
 ## Error Suppression
 
-* Do not use the `@` operator for error supression.
-
-* It has a high performance cost, and can cause inexplicable errors when used incorrectly.
+* Do not use the `@` operator for error supression. It has a _high_ performance cost, and can cause inexplicable errors when used incorrectly.
 
 * Avoid the need to use this by ensuring that you've properly checked values all along the way to avoid errors in the first place (see PHP: [Error Control Operators](http://www.php.net/manual/en/language.operators.errorcontrol.php)).
 

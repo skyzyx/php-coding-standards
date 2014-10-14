@@ -28,8 +28,6 @@
 
 * Methods should always define their visibility (e.g. `public`, `private`, `protected`) first, then whether or not they are `static`.
 
-* The use of `private` class methods and properties should be avoided -- use `protected` instead, so that another class could extend your class and change the method if necessary.
-
 * `protected` (and `public`) methods and properties should _not_ use an underscore prefix, as was common in PHP 4-era code.
 
 ## Type Casting/Juggling

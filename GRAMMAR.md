@@ -128,7 +128,7 @@ View/Template-layer code (code which intermingles PHP with HTML/non-PHP) allows 
 
 * No more than a single condition should go into a ternary statement. Use a switch-case or if-else condition instead.
 
-* In conditions, the value should be on the left and the variable should be on the right. ([Supporting evidence](https://www.securecoding.cert.org/confluence/display/seccode/EXP21-C.+Place+constants+on+the+left+of+equality+comparisons))
+* In conditions, the value should be on the left and the variable should be on the right. ([Supporting evidence](https://www.securecoding.cert.org/confluence/display/seccode/VOID+EXP21-C.+Place+constants+on+the+left+of+equality+comparisons))
 
   ```php
   // Encouraged

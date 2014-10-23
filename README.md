@@ -1,8 +1,8 @@
 # Parman PHP Coding Standards
 
-This guide is an attempt to precisely and thoroughly document all of the idiosyncrasies around how I write PHP code, focusing primarily on style, and a little on structure.
+PSR-0/1/2 are a solid foundation, but are not an entire coding style by themselves. I have taken the time to document all of the nitpicky patterns and nuances of my personal coding style.
 
-There are a couple of places where I deviate from PSR-2, but those exceptions are documented along with my rationale for rejecting that section of the PSR recommendation.
+It goes well-beyond brace placement and tabs vs. spaces to cover topics such as docblock annotations, ternary operations and which variation of English to use. It aims for thoroughness and pedanticism over hoping that we can all get along.
 
 ## Disclaimer
 

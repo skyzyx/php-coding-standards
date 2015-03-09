@@ -106,9 +106,7 @@ View/Template-layer code (code which intermingles PHP with HTML/non-PHP) allows 
 
 * Single quotes most of the time
 
-* For simple string interpolation with double-quoted strings, use the `${variable}` format. This is the same format as Ruby uses (i.e., `#{variable}`).
-
-   * Do NOT use `{$variable}` or `$variable`.
+* For simple string interpolation with double-quoted strings, use the `{$variable}` format. Do NOT use `${variable}` or `$variable`.
 
 * For complex string interpolation, always use `sprintf()`.
 

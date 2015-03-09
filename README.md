@@ -22,7 +22,6 @@ If you want to fork this and make edits for yourself or your team, please go rig
 * [WHITESPACE-ALIGNMENT.md](WHITESPACE-ALIGNMENT.md)
 * [CLASSES-METHODS.md](CLASSES-METHODS.md)
 * [LANGUAGE-PATTERNS.md](LANGUAGE-PATTERNS.md)
-* [CONTROVERSIAL-BITS.md](CONTROVERSIAL-BITS.md)
 
 ## Influences
 My primary influences are:

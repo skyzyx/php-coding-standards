@@ -4,19 +4,19 @@
 
 * For any external classes being used in the current class, you should `use` them between the namespace declaration and the class declaration.
 
-* All `use` statements should be sorted alphanumerically.
+* All `use` statements should be sorted alphanumerically, with the exception that built-in classes should be sorted at the top, and userland classes should be sorted at the bottom.
 
   ```php
   namespace Foo\Bar;
 
-  use \Exception;
-  use \SimpleXMLElement;
+  use Exception;
+  use SimpleXMLElement;
   use Fuzz\Buzz\BazzTrait;
 
   class Baz {}
   ```
 
-* In the `use` statement, globally-accessible classes MUST be prefixed with the `\` character, as per PHP's namespace resolution rules. However, all namespaced _userland_ classes should NOT be prefixed with the `\` character, as per the [PHP Manual](http://php.net/manual/en/language.namespaces.importing.php) (emphasis **mine**).
+* In the `use` statement, all namespaced _userland_ classes should NOT be prefixed with the `\` character, as per the [PHP Manual](http://php.net/manual/en/language.namespaces.importing.php) (emphasis **mine**).
 
   > Note that for namespaced names (fully qualified namespace names containing namespace separator, such as Foo\Bar as opposed to global names that do not, such as FooBar), **the leading backslash is unnecessary and not recommended**, as import names must be fully qualified, and are not processed relative to the current namespace.
 

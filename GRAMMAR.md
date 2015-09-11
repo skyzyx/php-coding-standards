@@ -21,8 +21,7 @@
       $abc = 'abc';
 
   // Good
-  if (!is_null($args))
-  {
+  if (!is_null($args)) {
       $abc = 'abc';
   }
   ```

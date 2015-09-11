@@ -17,13 +17,13 @@
   /*Discouraged Comment*/
   ```
 
-* If you are making a longer, multi-line comment, use line breaks instead of spaces immediately inside both ends of a `/* */`-style comment. The content may, at your option, be indented as well.
+* If you are making a longer, multi-line comment, use line breaks instead of spaces immediately inside both ends of a `/* */`-style comment.
 
   ```php
   /*
-      This is an extra long comment that I'm breaking up
-      into multiple lines for improved readability.
-  */
+   * This is an extra long comment that I'm breaking up
+   * into multiple lines for improved readability.
+   */
   ```
 
 * There should always be one line of whitespace above the start of a comment block.

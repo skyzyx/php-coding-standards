@@ -1,8 +1,12 @@
 # PSR Recommendations
 
+## PSR-1
+
 * [PSR-1](http://www.php-fig.org/psr/psr-1/), with the following exceptions:
 
     * Template code (intermingling PHP with HTML) MAY use the short-open tag (i.e., `<?`) if it has been enabled. \[[#](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md#21-php-tags)\]
+
+## PSR-2
 
 * [PSR-2](http://www.php-fig.org/psr/psr-2/), with the following exceptions:
 
@@ -12,9 +16,15 @@
 
     * The opening brace for a Closure MAY go on the next line following the `function` keyword. White space for defining Closures SHOULD follow the same rules as when defining methods and functions. \[[#](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md#6-closures)\] 
 
+## PSR-4
+
 * [PSR-4](http://www.php-fig.org/psr/psr-4/) for autoloading.
 
+## PSR-5
+
 * [PSR-5 Draft](https://github.com/phpDocumentor/fig-standards/blob/master/proposed/phpdoc.md) for DocBlocks.
+
+## PSR-12
 
 * [PSR-12 Draft](https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md), with the following exceptions:
 
@@ -78,43 +88,43 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
   * `abstract` and `final` must be declared before the visibility. (See [PHP: Class Abstraction](http://www.php.net/manual/en/language.oop5.abstract.php))
   * `static` must be declared after the visibility. (See [PHP: Static Keyword](http://www.php.net/manual/en/language.oop5.static.php))
 
-    ```php
-    abstract class MyClass {}
-    final class MyClass {}
+```php
+abstract class MyClass {}
+final class MyClass {}
 
-    abstract public function MyMethod() {}
-    final public function MyMethod() {}
-    abstract public static function MyMethod() {}
-    ```
+abstract public function MyMethod() {}
+final public function MyMethod() {}
+abstract public static function MyMethod() {}
+```
 
 * Control structure keywords MUST have one space after them; method and function calls MUST NOT.
 
-  ```php
-  if () {}
-  else () {}
-  public function example() {}
-  ```
+```php
+if () {}
+else () {}
+public function example() {}
+```
 
 * Opening parentheses for control structures MUST NOT have a space after them, and closing parentheses for control structures MUST NOT have a space before.
 
-  ```php
-  if ('abc' === $abc) {}
-  ```
+```php
+if ('abc' === $abc) {}
+```
 
 * Unused `use` statements must be removed.
 
 * All items of the `@param` phpdoc tags must be aligned vertically.
 
-  ```php
-  /**
-   * Formats a single-level response.
-   *
-   * @param  Response        $response Guzzle response object.
-   * @param  OutputInterface $output   Symfony Console output.
-   * @return void
-   */
-  public static function handleResponse(Response $response, OutputInterface $output) {}
-  ```
+```php
+/**
+ * Formats a single-level response.
+ *
+ * @param  Response        $response Guzzle response object.
+ * @param  OutputInterface $output   Symfony Console output.
+ * @return void
+ */
+public static function handleResponse(Response $response, OutputInterface $output) {}
+```
 
 * An empty line feed should precede a return statement.
 

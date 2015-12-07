@@ -8,36 +8,36 @@
 
 * Use of Perl/shell style comments (`#`) is discouraged.
 
-  ```php
-  // Encouraged Comment
-  /* Encouraged Comment */
+```php
+// Encouraged Comment
+/* Encouraged Comment */
 
-  # Discouraged Comment
-  //Discouraged Comment
-  /*Discouraged Comment*/
-  ```
+# Discouraged Comment
+//Discouraged Comment
+/*Discouraged Comment*/
+```
 
 * If you are making a longer, multi-line comment, use line breaks instead of spaces immediately inside both ends of a `/* */`-style comment.
 
-  ```php
-  /*
-   * This is an extra long comment that I'm breaking up
-   * into multiple lines for improved readability.
-   */
-  ```
+```php
+/*
+ * This is an extra long comment that I'm breaking up
+ * into multiple lines for improved readability.
+ */
+```
 
 * There should always be one line of whitespace above the start of a comment block.
 
-  ```php
-  // This is my code.
-  echo 'This is my code.';
+```php
+// This is my code.
+echo 'This is my code.';
 
-  // This is more code.
-  echo 'This is more code.';
+// This is more code.
+echo 'This is more code.';
 
-  if (condition) {
+if (condition) {
 
-      // comment
-      echo 'code';
-  }
-  ```
+    // comment
+    echo 'code';
+}
+```

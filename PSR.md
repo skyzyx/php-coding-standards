@@ -1,15 +1,17 @@
 # PSR Recommendations
 
-* [PSR-0](http://www.php-fig.org/psr/psr-0/)
-
 * [PSR-1](http://www.php-fig.org/psr/psr-1/)
 
 * [PSR-2](http://www.php-fig.org/psr/psr-2/), with the following exceptions:
     * Template code (intermingling PHP with HTML) is permitted to use the short-open tag (i.e., `<?`).
-    * Line lengths have a HARD LIMIT of 120 characters. (Better than 80, but still not ridiculous.)
-    * Extra line breaks are encouraged for readability.
+    * Line lengths have a HARD LIMIT of 120 characters.
+    * Closures MUST NOT be declared with a space after the `function` keyword. White space should follow the same rules as when defining methods and functions.
+
+* [PSR-4](http://www.php-fig.org/psr/psr-4/)
 
 * [PSR-5 Draft](https://github.com/phpDocumentor/fig-standards/blob/master/proposed/phpdoc.md) for DocBlocks.
+
+* [PSR-12 Draft](https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md)
 
 
 ## Summary of PSR-1/2 Recommendations

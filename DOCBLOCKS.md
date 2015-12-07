@@ -33,7 +33,7 @@ You can choose to annotate the properties with only the data type.
 /** @var integer */
 protected $count = 0;
 
-/** @var array<string> */
+/** @var string[] */
 private $array_of_strings = [];
 ```
 

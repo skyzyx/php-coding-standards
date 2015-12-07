@@ -34,7 +34,7 @@
 
 * Sometimes, an object response can be _stringy_ or _array-y_. Make sure you typecast into a true string or array if you're not sure (e.g., `SimpleXMLElement`, `stdClass`).
 
-* Typecasting should follow the same whitespace rules listed above, and use short words whenever possible.
+* Typecasting should follow the same whitespace rules listed above, and use long words whenever possible.
 
   ```php
   // Encouraged

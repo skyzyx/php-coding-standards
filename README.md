@@ -1,8 +1,14 @@
 # Parman PHP Coding Standards
 
-PSR-0/1/2 are a solid foundation, but are not an entire coding style by themselves. I have taken the time to document all of the nitpicky patterns and nuances of my personal coding style.
+PSR-1/2/4/5/12 are a solid foundation, but are not an entire coding style by themselves. I have taken the time to document all of the nitpicky patterns and nuances of my personal coding style.
 
 It goes well-beyond brace placement and tabs vs. spaces to cover topics such as docblock annotations, ternary operations and which variation of English to use. It aims for thoroughness and pedanticism over hoping that we can all get along.
+
+* [PSR-1] — Basic Coding Style
+* [PSR-2] — Advanced Coding Style
+* [PSR-4] — Autoloading Patterns
+* [PSR-5] — Documentation Block Patterns
+* [PSR-12] — Extended Coding Style
 
 ## Disclaimer
 
@@ -59,3 +65,9 @@ This work is published from:
       content="US" about="https://github.com/skyzyx/php-coding-standards">
   United States</span>.
 </p>
+
+  [PSR-1]: http://www.php-fig.org/psr/psr-1/
+  [PSR-2]: http://www.php-fig.org/psr/psr-2/
+  [PSR-4]: http://www.php-fig.org/psr/psr-4/
+  [PSR-5]: https://github.com/phpDocumentor/fig-standards/blob/master/proposed/phpdoc.md
+  [PSR-12]: https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md

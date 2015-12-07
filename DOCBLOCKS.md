@@ -45,3 +45,7 @@ Type-hinting all `return` statements can enable better auto-complete functionali
 /** @var \Symfony\Components\EventDispatcher\EventDispatcher */
 return $dispatcher;
 ```
+
+## Licenses
+
+Any _short-hand_ refrences to software licenses should use the [SPDX identifier](https://spdx.org/licenses/).

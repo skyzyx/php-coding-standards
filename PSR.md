@@ -1,11 +1,15 @@
 # PSR Recommendations
 
 * [PSR-1](http://www.php-fig.org/psr/psr-1/), with the following exceptions:
+
     * Template code (intermingling PHP with HTML) MAY use the short-open tag (i.e., `<?`) if it has been enabled. \[[#](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md#21-php-tags)\]
 
 * [PSR-2](http://www.php-fig.org/psr/psr-2/), with the following exceptions:
+
     * Line lengths have a HARD LIMIT of 120 characters. \[[#](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md#23-lines)\] 
+
     * Closures MAY (but are not REQUIRED to) be declared with a space after the `function` keyword. White space for defining Closures SHOULD follow the same rules as when defining methods and functions. \[[#](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md#6-closures)\] 
+
     * The opening brace for a Closure MAY go on the next line following the `function` keyword. White space for defining Closures SHOULD follow the same rules as when defining methods and functions. \[[#](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md#6-closures)\] 
 
 * [PSR-4](http://www.php-fig.org/psr/psr-4/) for autoloading.
@@ -13,9 +17,13 @@
 * [PSR-5 Draft](https://github.com/phpDocumentor/fig-standards/blob/master/proposed/phpdoc.md) for DocBlocks.
 
 * [PSR-12 Draft](https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md), with the following exceptions:
+
     * \[Clarification\] Each individual Trait that is imported into a class MUST be included one-per-line, and each inclusion MUST have its own `use` statement. This matches the PSR-2 format for including Namespaces and Namespace Aliases. \[[#](https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md#42-using-traits)\]
+
     * When including Namespaces, Traits, Constants and Functions, the `use` statements SHOULD be in alphabetical order, except when a different order makes more sense in the present context (e.g., `ClassOne`, `ClassTwo`, `ClassThree`, `ClassFour`). This is PSR-2-compatible. \[[#](https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md#3-declare-statements-namespace-and-use-declarations)\]
+
     * You SHOULD use `use` statements for classes in the root namespace. `use Exception; throw new Exception();` is preferred over `throw new \Exception();`. \[[#](https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md#3-declare-statements-namespace-and-use-declarations)\]
+
     * For Anonymous Classes, the opening bracket SHOULD be placed on the line immediately following the `class` keyword. This matches the PSR-2 format for how classes are defined. \[[#](https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md#8-anonymous-classes)\]
 
 

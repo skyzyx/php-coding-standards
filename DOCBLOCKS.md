@@ -14,9 +14,9 @@
 /**
  * [getSomeKindOfData() description]
  * 
- * @param   string           $string [description]
- * @param   SimpleXMLElement $xml    [description]
- * @returns [type]                   [description]
+ * @param  string           $string [description]
+ * @param  SimpleXMLElement $xml    [description]
+ * @return [type]                   [description]
  * 
  * @throws [Exception class]
  */

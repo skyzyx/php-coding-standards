@@ -24,7 +24,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 * Files SHOULD either declare symbols (classes, functions, constants, etc.) or cause side-effects (e.g. generate output, change `.ini` settings, etc.) but SHOULD NOT do both.
 
-* Namespaces and classes MUST follow PSR-0.
+* Namespaces and classes MUST follow PSR-4.
 
 * Class names MUST be declared in `StudlyCaps`.
 

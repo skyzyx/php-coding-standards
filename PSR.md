@@ -8,7 +8,7 @@
     * Closures MAY (but are not REQUIRED to) be declared with a space after the `function` keyword. White space for defining Closures SHOULD follow the same rules as when defining methods and functions. \[[#](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md#6-closures)\] 
     * The opening brace for a Closure MAY go on the next line following the `function` keyword. White space for defining Closures SHOULD follow the same rules as when defining methods and functions. \[[#](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md#6-closures)\] 
 
-* [PSR-4](http://www.php-fig.org/psr/psr-4/)
+* [PSR-4](http://www.php-fig.org/psr/psr-4/) for autoloading.
 
 * [PSR-5 Draft](https://github.com/phpDocumentor/fig-standards/blob/master/proposed/phpdoc.md) for DocBlocks.
 

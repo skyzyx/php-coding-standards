@@ -5,7 +5,7 @@ PSR-1/2/4/5/12 are a solid foundation, but are not an entire coding style by the
 It goes well-beyond brace placement and tabs vs. spaces to cover topics such as docblock annotations, ternary operations and which variation of English to use. It aims for thoroughness and pedanticism over hoping that we can all get along.
 
 * [PSR-1] — Basic Coding Style
-* [PSR-2] — Advanced Coding Style
+* [PSR-2] — Coding Style Guide
 * [PSR-4] — Autoloading Patterns
 * [PSR-5] — Documentation Block Patterns
 * [PSR-12] — Extended Coding Style

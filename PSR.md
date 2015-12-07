@@ -1,7 +1,7 @@
 # PSR Recommendations
 
 * [PSR-1](http://www.php-fig.org/psr/psr-1/), with the following exceptions:
-    * Template code (intermingling PHP with HTML) is permitted to use the short-open tag (i.e., `<?`). \[[#](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md#21-php-tags)\]
+    * Template code (intermingling PHP with HTML) MAY use the short-open tag (i.e., `<?`) if it has been enabled. \[[#](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md#21-php-tags)\]
 
 * [PSR-2](http://www.php-fig.org/psr/psr-2/), with the following exceptions:
     * Line lengths have a HARD LIMIT of 120 characters. \[[#](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md#23-lines)\] 

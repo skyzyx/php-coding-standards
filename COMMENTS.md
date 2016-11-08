@@ -9,12 +9,12 @@
 * Use of Perl/shell style comments (`#`) is discouraged.
 
 ```php
-// Encouraged Comment
-/* Encouraged Comment */
+// Good Comment
+/* Good Comment */
 
-# Discouraged Comment
-//Discouraged Comment
-/*Discouraged Comment*/
+# Bad Comment
+//Bad Comment
+/*Bad Comment*/
 ```
 
 * If you are making a longer, multi-line comment, use line breaks instead of spaces immediately inside both ends of a `/* */`-style comment.

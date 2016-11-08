@@ -10,7 +10,7 @@
 
 ## Language constructs
 
-* `echo`, `require`, `include`, `print` should not use parentheses for invokation.
+* `echo`, `require`, `include`, `print` should not use parentheses for invocation.
 
 ## Regular Expressions
 

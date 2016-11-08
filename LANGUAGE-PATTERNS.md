@@ -38,15 +38,15 @@
 
   ```php
   // Encouraged
-  (boolean) $result;
-  (integer) $value;
+  (bool) $result;
+  (int) $value;
 
   // Discouraged
-  (bool) $result;
+  (boolean) $result;
   ( bool ) $result;
   (bool)$result;
-  (bool)  $result;
-  (int) $value;
+  (int)  $result;
+  (integer) $value;
   ```
 
 ## Assignments in Conditionals

@@ -181,7 +181,7 @@ Never use the following features of PHP. The world will come to an end if you do
 
 ### Miscellaneous
 
-* No global variables. ಠ_ಠ
+* No global variables. (ಠ_ಠ)
 
 * Code must not produce any warnings or errors when PHP's error reporting level is set to `error_reporting(-1)`. ([Source](https://twitter.com/rasmus/status/7448448829))
 

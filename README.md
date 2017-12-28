@@ -90,7 +90,7 @@ make lint
 
 * Non-documentation comments are strongly encouraged.
 
-* A general rule of thumb is that if you look at a section of code and think "Wow, I don't want to try and describe that", you --need to comment it-- should refactor it before you forget how it works.
+* A general rule of thumb is that if you look at a section of code and think "Wow, I don't want to try and describe that", you <del>need to comment it</del> should refactor it before you forget how it works.
 
 * C-style comments (`/* */`) and standard C++ comments (`//`) are both fine. However, single-line comments should opt for `//`, while multi-line comments should opt for `/* */`.
 

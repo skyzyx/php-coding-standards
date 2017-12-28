@@ -8,14 +8,6 @@
   #! /usr/bin/env php
   ```
 
-## Language constructs
-
-* `echo`, `require`, `include`, `print` should not use parentheses for invocation.
-
-## Regular Expressions
-
-* Using [PCRE regular expressions](http://www.php.net_manual/en/book.pcre.php) (e.g., `preg_*`) instead of their POSIX counterparts (e.g., `ereg_*`). _(Removed in newer versions of PHP.)_
-
 ## Constants
 
 * Global constants are bad.
@@ -23,41 +15,6 @@
 * Class constants are good.
 
 * Enum-like class constants are better.
-
-## Visibility
-
-* Methods should always define their visibility (e.g. `public`, `private`, `protected`) first, then whether or not they are `static`.
-
-* `protected` (and `public`) methods and properties should _not_ use an underscore prefix, as was common in PHP 4-era code.
-
-## Type Casting/Juggling
-
-* Sometimes, an object response can be _stringy_ or _array-y_. Make sure you typecast into a true string or array if you're not sure (e.g., `SimpleXMLElement`, `stdClass`).
-
-* Typecasting should follow the same whitespace rules listed above, and use long words whenever possible.
-
-  ```php
-  // Encouraged
-  (bool) $result;
-  (int) $value;
-
-  // Discouraged
-  (boolean) $result;
-  ( bool ) $result;
-  (bool)$result;
-  (int)  $result;
-  (integer) $value;
-  ```
-
-## Assignments in Conditionals
-
-This can be leveraged in some very useful ways. If you don't know how this works, you should read-up on this pattern and understand it's not always a typo.
-
-## Error Suppression
-
-* Do not use the `@` operator for error supression. It has a _high_ performance cost, and can cause inexplicable errors when used incorrectly.
-
-* Avoid the need to use this by ensuring that you've properly checked values all along the way to avoid errors in the first place (see PHP: [Error Control Operators](http://www.php.net/manual/en/language.operators.errorcontrol.php)).
 
 ## PHP_EOL
 

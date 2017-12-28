@@ -9,41 +9,20 @@ It goes well-beyond brace placement and tabs vs. spaces to cover topics such as 
 * [PSR-4] — Autoloading Patterns
 * [PSR-5] — Documentation Block Patterns
 * [PSR-12] — Extended Coding Style
+* [Symfony] — Additional Standards.
+
+## Enforced by Code
+
+I have reduced these guidelines to only specify what I cannot enforce using existing linters. Here are the linter rules which should be used by [PHP Code Sniffer] and [PHP CS Fixer].
+
+* [phpcs.xml](https://github.com/simplepie/simplepie-ng/blob/master/phpcs.xml)
+* [.php_cs.dist](https://github.com/simplepie/simplepie-ng/blob/master/.php_cs.dist)
 
 ## Disclaimer
 
 This is an attempt to document my personal coding style, patterns, and rationale. This is NOT an attempt to tell anybody else how to write code. There is a 100% chance that someone will disagree with me, and that's perfectly OK. This is for me.
 
 If you want to fork this and make edits for yourself or your team, please go right ahead.
-
-## Sections
-
-* [PSR.md](PSR.md)
-* [EDITOR-SETTINGS.md](EDITOR-SETTINGS.md)
-* [GRAMMAR.md](GRAMMAR.md)
-* [COMMENTS.md](COMMENTS.md)
-* [DOCBLOCKS.md](DOCBLOCKS.md)
-* [SPELLING.md](SPELLING.md)
-* [NAMING.md](NAMING.md)
-* [WHITESPACE-ALIGNMENT.md](WHITESPACE-ALIGNMENT.md)
-* [CLASSES-METHODS.md](CLASSES-METHODS.md)
-* [LANGUAGE-PATTERNS.md](LANGUAGE-PATTERNS.md)
-
-## Influences
-My primary influences are:
-
-* [SimplePie](http://simplepie.org)
-* [AWS SDK for PHP](https://github.com/aws/aws-sdk-php)
-* [PSR-1](http://www.php-fig.org/psr/psr-1/)
-* [PSR-2](http://www.php-fig.org/psr/psr-2/)
-* [PEAR](http://pear.php.net/manual/en/standards.php)
-* [Evolt](http://evolt.org/node/60247/) standards
-* ...and other things I've picked up since I started writing PHP in 2002.
-
-## Obsoletes
-This set of standards cannibalizes and obsoletes the document I published back in 2010. This set is more evolution than revolution, and there is still a lot of overlap between the two.
-
-* http://s3.ryanparman.com/php-guidelines/index.html
 
 ## License
 My intention is to release all rights to this documentation and make it available under the Public Domain. Unfortunately, in the U.S. it's not quite that cut-and-dry. So, I am dual-licensing this work under [CC0](LICENSE-CC0) and the [Unlicense](LICENSE-UNLICENSE). You can choose whichever license you would prefer to adhere to.
@@ -71,3 +50,6 @@ This work is published from:
   [PSR-4]: http://www.php-fig.org/psr/psr-4/
   [PSR-5]: https://github.com/phpDocumentor/fig-standards/blob/master/proposed/phpdoc.md
   [PSR-12]: https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md
+  [Symfony]: https://symfony.com/doc/current/contributing/code/standards.html
+  [PHP Code Sniffer]: https://github.com/squizlabs/PHP_CodeSniffer
+  [PHP CS Fixer]: http://cs.sensiolabs.org

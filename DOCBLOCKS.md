@@ -25,11 +25,23 @@ public static function getSomeKindOfData($string, SimpleXMLElement $xml) {
 
 Leveraging return types (PHP 7.0+) is the preferred approach for informing IDEs about which classes we're working with.
 
+```php
+use Symfony\Components\EventDispatcher\EventDispatcher;
+
+public function getDispatcher(): EventDispatcher
+{
+    return $this->dispatcher;
+}
+```
+
 Old-style annotations (below) are only acceptable for PHP 5.x codebases.
 
 ```php
-/** @var \Symfony\Components\EventDispatcher\EventDispatcher */
-return $dispatcher;
+public function getDispatcher()
+{
+    /** @var \Symfony\Components\EventDispatcher\EventDispatcher */
+    return $this->dispatcher;
+}
 ```
 
 ## Licenses

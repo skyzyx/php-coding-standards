@@ -201,23 +201,7 @@ Never use the following features of PHP. The world will come to an end if you do
 ## License
 My intention is to release all rights to this documentation and make it available under the Public Domain. Unfortunately, in the U.S. it's not quite that cut-and-dry. So, I am dual-licensing this work under [CC0](LICENSE-CC0) and the [Unlicense](LICENSE-UNLICENSE). You can choose whichever license you would prefer to adhere to.
 
-<p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
-  <a rel="license"
-     href="http://creativecommons.org/publicdomain/zero/1.0/">
-    <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
-  </a>
-  <br />
-  To the extent possible under law,
-  <a rel="dct:publisher"
-     href="https://github.com/skyzyx/php-coding-standards">
-    <span property="dct:title">Ryan Parman</span></a>
-  has waived all copyright and related or neighboring rights to
-  "<span property="dct:title">Parman PHP Coding Standards</span>".
-This work is published from:
-<span property="vcard:Country" datatype="dct:ISO3166"
-      content="US" about="https://github.com/skyzyx/php-coding-standards">
-  United States</span>.
-</p>
+To the extent possible under law, the AUTHOR has waived all copyright and related or neighboring rights to "PHP Coding Standards". This work is published from: <span property="vcard:Country" datatype="dct:ISO3166" content="US">United States</span>.
 
   [PSR-1]: http://www.php-fig.org/psr/psr-1/
   [PSR-2]: http://www.php-fig.org/psr/psr-2/

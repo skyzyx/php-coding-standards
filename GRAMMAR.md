@@ -1,20 +1,20 @@
 # Grammar
 
-* Global variables.
-    * No. ಠ_ಠ
-    * If you are using `$_GLOBALS`, you have a pattern problem.
+* No global variables. ಠ_ಠ
 
 * Code must not produce any warnings or errors when PHP's error reporting level is set to `error_reporting(-1)`. ([Source](https://twitter.com/rasmus/status/7448448829))
 
 ## Strings
 
-* Single quotes most of the time
+* Single quotes most of the time.
 
-* For simple string interpolation with double-quoted strings, use the `{$variable}` format. Do NOT use `${variable}` or `$variable`.
+* `sprintf()` is the preferred form for injecting variables into strings.
 
-* For complex string interpolation, always use `sprintf()`.
+* For string interpolation (e.g., with HEREDOC), use the `{$variable}` format. Do NOT use `${variable}` or `$variable`.
 
-* Use HEREDOC or NOWDOC syntax for multi-line strings.
+* NOWDOC strings are preferred over HEREDOC strings.
+
+* Use NOWDOC/HEREDOC for multi-line strings.
 
 ## Ternary statements
 

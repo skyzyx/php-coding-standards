@@ -5,39 +5,3 @@
 * C-style comments (`/* */`) and standard C++ comments (`//`) are both fine.
 
 * For readability, add a single space after `//` style comments, and an extra space immediately inside both ends of a `/* */`-style comment.
-
-* Use of Perl/shell style comments (`#`) is discouraged.
-
-```php
-// Good Comment
-/* Good Comment */
-
-# Bad Comment
-//Bad Comment
-/*Bad Comment*/
-```
-
-* If you are making a longer, multi-line comment, use line breaks instead of spaces immediately inside both ends of a `/* */`-style comment.
-
-```php
-/*
- * This is an extra long comment that I'm breaking up
- * into multiple lines for improved readability.
- */
-```
-
-* There should always be one line of whitespace above the start of a comment block.
-
-```php
-// This is my code.
-echo 'This is my code.';
-
-// This is more code.
-echo 'This is more code.';
-
-if (condition) {
-
-    // comment
-    echo 'code';
-}
-```

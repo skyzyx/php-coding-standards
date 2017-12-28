@@ -1,7 +1,7 @@
 # Comments
 
-* Non-documentation comments are strongly encouraged. A general rule of thumb is that if you look at a section of code and think "Wow, I don't want to try and describe that", you need to comment it before you forget how it works.
+* Non-documentation comments are strongly encouraged.
 
-* C-style comments (`/* */`) and standard C++ comments (`//`) are both fine.
+* C-style comments (`/* */`) and standard C++ comments (`//`) are both fine. However, single-line comments should opt for `//`, while multi-line comments should opt for `/* */`.
 
 * For readability, add a single space after `//` style comments, and an extra space immediately inside both ends of a `/* */`-style comment.
